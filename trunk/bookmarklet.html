@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--
+QA Style Sheet <http://code.google.com/p/qa-style-sheet/>
+
+Copyright 2009 Google Inc.
+
+Licensed under the Apache License, Version 2.0 (the “License”);
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an “AS IS” BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+<html lang="en">
+  <meta charset="utf-8">
+  <title>QA Style Sheet Bookmarklet</title>
+  <p><a href="javascript:styles='applet,basefont,center,dir,font,isindex,menu,s,spacer,strike,u{outline:3px%20solid%20red%20!important}table%20table{outline:3px%20solid%20red%20!important}img{outline:3px%20solid%20red%20!important}img[alt]{outline:0%20!important}img[alt=\'\']{outline:3px%20solid%20yellow%20!important}a[href=\'\']{outline:3px%20solid%20red%20!important}a[href$=\'.gif\'],a[href$=\'.jpg\'],a[href$=\'.jpeg\'],a[href$=\'.pdf\'],a[href$=\'.png\']{outline:3px%20solid%20yellow%20!important}p:empty,li:empty,th:empty,td:empty,div:empty,span:empty{outline:3px%20solid%20yellow%20!important}p[id],li[id],th[id],td[id],div[id],span[id]{outline:0%20!important}[style]{outline:3px%20solid%20red%20!important}head{display:block%20!important}link[rel=\'stylesheet\']%20~%20link[rel=\'stylesheet\']:after{background:yellow%20!important;content:\'More%20than%20one%20style%20sheet%20references%20detected.\'%20!important;display:inline%20!important;font-weight:bold%20!important}link[rel=\'stylesheet\']#x-qa{display:none%20!important}style{background:yellow%20!important;display:block%20!important}style:before{content:\'style%20element%20detected:\'%20!important;font-weight:bold%20!important}body{background-image:url(http://qa-style-sheet.googlecode.com/svn/trunk/1.1.png)%20!important}';%20newSS%20=%20document.createElement('link');%20newSS.rel%20=%20'stylesheet';%20newSS.id%20=%20'x-qa';%20newSS.href%20=%20'data:text/css,'%20+%20escape(styles);%20document.documentElement.childNodes[0].appendChild(newSS);%20void%200"><strong>QA bookmarklet</strong></a>—drag bookmarklet link to your browser’s bookmarks bar or add it to your favorites manually. You can then run the bookmarklet on any page you like by just accessing it in your bookmarks bar or in your favorites.
+  <!-- Please ignore: -->
+  <script>
+    var gaJsHost = (('https:' == document.location.protocol) ? 'https://ssl.' : 'http://www.');
+    document.write(unescape('%3Cscript src="' + gaJsHost + 'google-analytics.com/ga.js"%3E%3C/script%3E'));
+  </script>
+  <script>
+    var pageTracker = _gat._getTracker('UA-212068-11');
+    pageTracker._trackPageview();
+  </script>
