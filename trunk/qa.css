@@ -43,5 +43,8 @@ link[rel="stylesheet"]#x-qa { display: none !important; }
 style { background: yellow !important; display: block !important; }
 style:before { content: "style element detected: " !important; font-weight: bold !important; }
 
-/* QA style sheet updates */
-body { background-image: url(http://qa-style-sheet.googlecode.com/svn/trunk/1.1.png) !important; }
+/* Status indicator */
+body:before { background: yellow; color: black; content: "QA check done \2713"; display: inline; font-weight: bold; }
+
+/* Update indicator */
+body { background-image: url(http://hell.meiert.org/core/png/1.2.png) !important; }
