@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--
+QA Style Sheet <http://code.google.com/p/qa-style-sheet/>
+
+Copyright 2009 Google Inc.
+
+Licensed under the Apache License, Version 2.0 (the “License”);
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an “AS IS” BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+<html lang="en">
+  <meta charset="utf-8">
+  <title>QA Style Sheet Test</title>
+  <link rel="stylesheet" href="qa.css">
+  <link rel="stylesheet" href="qa.css?test">
+  <style>
+    /* Test */
+    html { background: inherit; }
+  </style>
+  <p>Some text with <font><code>font</code></font> and <s><code>s</code></s> and <strike><code>strike</code></strike> elements.
+  <p>Images without <code>@alt</code>, empty <code>@alt</code>, and <code>@alt</code> that is available:
+  <p><img src="http://www.google.com/images/logo_sm.gif"> <img src="http://www.google.com/images/logo_sm.gif" alt=""> <img src="http://www.google.com/images/logo_sm.gif" alt="Google">
+  <table>
+    <tr>
+      <th></th>
+      <td>
+        <table>
+          <tr>
+            <td>A nested table (flanked by empty <code>th</code> and <code>td</code> elements).
+            <td></td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+  <p>Links that point to <a href="http://example.ms/">regular</a> and special files like <a href="http://example.ms/foo.gif">GIF images</a> or <a href="http://example.ms/foo.jpg">JPG</a> or <a href="http://example.ms/foo.png">PNG</a> or <a href="http://example.ms/foo.pdf">PDF</a> files.
+  <p>Empty <code>span</code> elements (<span></span>), empty <code>div</code> elements:
+  <div></div>
+  <p>… but empty <code>div</code> or <code>span</code> elements using an <code>@id</code> are cool (due to likelihood of scripting purposes), like this friend (in parentheses): (<span id="test"></span>)
+  <p style="display: inherit;">A paragraph with <code>@style</code>.
+  <!-- Please ignore: -->
+  <script>
+    var gaJsHost = (('https:' == document.location.protocol) ? 'https://ssl.' : 'http://www.');
+    document.write(unescape('%3Cscript src="' + gaJsHost + 'google-analytics.com/ga.js"%3E%3C/script%3E'));
+  </script>
+  <script>
+    var pageTracker = _gat._getTracker('UA-212068-11');
+    pageTracker._trackPageview();
+  </script>
