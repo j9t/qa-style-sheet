@@ -25,11 +25,11 @@ table table { outline: 3px solid red !important; }
 /* Decorative or inaccessible images */
 img { outline: 3px solid red !important; }
 img[alt] { outline: 0 !important; }
-img[alt=""] { outline: 3px solid yellow !important; }
+img[alt=''] { outline: 3px solid yellow !important; }
 
 /* Empty or non-HTML links */
-a[href=""] { outline: 3px solid red !important; }
-a[href$=".gif"], a[href$=".jpg"], a[href$=".jpeg"], a[href$=".pdf"], a[href$=".png"] { outline: 3px solid yellow !important; }
+a[href=''] { outline: 3px solid red !important; }
+a[href$='.gif'], a[href$='.jpg'], a[href$='.jpeg'], a[href$='.pdf'], a[href$='.png'] { outline: 3px solid yellow !important; }
 
 /* Empty elements not used for scripting */
 p:empty, li:empty, th:empty, td:empty, div:empty, span:empty { outline: 3px solid yellow !important; }
@@ -38,13 +38,13 @@ p[id], li[id], th[id], td[id], div[id], span[id] { outline: 0 !important; }
 /* Maintenance traps */
 [style] { outline: 3px solid red !important; }
 head { display: block !important; }
-link[rel="stylesheet"] ~ link[rel="stylesheet"]:after { background: yellow !important; content: "More than one style sheet references detected." !important; display: inline !important; font-weight: bold !important; }
-link[rel="stylesheet"]#x-qa { display: none !important; }
+link[rel='stylesheet'] ~ link[rel='stylesheet']:after { background: yellow !important; content: 'More than one style sheet references detected.' !important; display: inline !important; font-weight: bold !important; }
+link[rel='stylesheet']#x-qa { display: none !important; }
 style { background: yellow !important; display: block !important; }
-style:before { content: "style element detected: " !important; font-weight: bold !important; }
+style:before { content: 'style element detected: ' !important; font-weight: bold !important; }
 
 /* Status indicator */
-body:before { background: yellow; color: black; content: "QA check done \2713"; display: inline; font-weight: bold; }
+body:before { background: yellow; color: black; content: 'QA check done \2713'; display: inline; font-weight: bold; }
 
 /* Update indicator */
 body { background-image: url(http://hell.meiert.org/core/png/1.2.png) !important; }
