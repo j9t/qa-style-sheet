@@ -1,12 +1,6 @@
 # qa-style-sheet
 
-[Moved from Google Project Hosting.](https://code.google.com/p/qa-style-sheet/)
-
-The QA style sheet [https://plus.google.com/+JensOMeiert/posts/KGcMaJCP5wY looks for a new owner]. [http://meiert.com/en/contact/ Contact Jens.]
-
-----
-
-*Important:* Version 1.0 of the QA style sheet used an background image hosted on Google Code to inform about updates. This does not work reliably due to Google Code forcing files to be downloaded. Please update to version 1.1 which fixes this problem and also adds a status indicator (“QA check done”).
+The QA style sheet <a href="https://plus.google.com/+JensOMeiert/posts/KGcMaJCP5wY">looks for a new owner</a>. <a href="http://meiert.com/en/contact/">Contact Jens.</a>
 
 ----
 
@@ -14,9 +8,9 @@ The QA style sheet highlights specific HTML problems like use of deprecated elem
 
 ## 3 Ways to Use the QA Style Sheet
 
- # Use it on demand as a *[http://hell.meiert.org/core/html/qa-bookmarklet.html bookmarklet]*: Add the bookmarklet or favelet, respectively, to your bookmarks and access it when needed. When customizing the style sheet better [http://www.peterbe.com/plog/blogitem-040406-1/compressor compress it], [http://www.squarefree.com/userstyles/make-bookmarklet.html generate a new bookmarklet], but make sure to add {{{%20newSS.id%20=%20'x-qa';}}} to the bookmarklet code to avoid false positives when it comes to style sheet references on a page (this assumes you’re keeping the {{{#x-qa}}} selector in the QA style sheet too).
- # Use it permanently as a user style sheet with your browser (userContent.css for Gecko browsers). For more information please see [http://css-discuss.incutio.com/?page=UserStylesheets documentation at CSS-Discuss] or [http://webdesign.about.com/od/css/ht/htcssuserfirefo.htm at About.com]. It’s easy though.
- # Temporarily import the style sheet in your project’s default style sheet. Do not forget to remove the style sheet reference after testing.
+* Use it on demand as a <a href="http://hell.meiert.org/core/html/qa-bookmarklet.html"><strong>bookmarklet</strong></a>: Add the bookmarklet or favelet, respectively, to your bookmarks and access it when needed. When customizing the style sheet better <a href="http://www.peterbe.com/plog/blogitem-040406-1/compressor">compress it</a>, <a href="http://www.squarefree.com/userstyles/make-bookmarklet.html">generate a new bookmarklet</a>, but make sure to add <code>%20newSS.id%20=%20'x-qa';</code> to the bookmarklet code to avoid false positives when it comes to style sheet references on a page (this assumes you’re keeping the <code>#x-qa</code> selector in the QA style sheet too).
+* Use it permanently as a user style sheet with your browser (userContent.css for Gecko browsers). For more information please see <a href="http://css-discuss.incutio.com/?page=UserStylesheets">documentation at CSS-Discuss</a> or <a href="http://webdesign.about.com/od/css/ht/htcssuserfirefo.htm">at About.com</a>. It’s easy though.
+* Temporarily import the style sheet in your project’s default style sheet. Do not forget to remove the style sheet reference after testing.
 
 ## User Agent Support
 
@@ -24,21 +18,23 @@ The style sheet is supported differently across browsers as it makes some use of
 
 ## Background and Design Considerations
 
-While Eric Meyer once published a [http://meyerweb.com/eric/thoughts/2007/09/07/diagnostic-styling/ comparable style sheet], this QA style sheet has a slightly different scope. It spots the following problems, indicated in yellow (warning) and red (error) assuming a modern browser:
+While Eric Meyer once published a <a href="http://meyerweb.com/eric/thoughts/2007/09/07/diagnostic-styling/">comparable style sheet</a>, this QA style sheet has a slightly different scope. It spots the following problems, indicated in yellow (warning) and red (error) assuming a modern browser:
 
  * Errors:
-   * deprecated elements like {{{applet}}}, {{{basefont}}}, {{{center}}}, {{{dir}}}, {{{font}}}, {{{isindex}}}, {{{menu}}}, {{{s}}}, {{{spacer}}}, {{{strike}}}, and {{{u}}};
+   * deprecated elements like <code>applet</code>, <code>basefont</code>, <code>center</code>, <code>dir</code>, <code>font</code>, <code>isindex</code>, <code>menu</code>, <code>s</code>, <code>spacer</code>, <code>strike</code>, and <code>u</code>;
    * layout tables (nested tables, to be precise);
-   * images ({{{img}}} elements) without any {{{alt}}} attribute;
-   * anchors with an empty {{{href}}} attribute thus pointing to nothing;
-   * {{{style}}} attributes.
+   * images (<code>img</code> elements) without any <code>alt</code> attribute;
+   * anchors with an empty <code>href</code> attribute thus pointing to nothing;
+   * <code>style</code> attributes.
  * Warnings:
-   * images with an empty {{{alt}}} attribute;
+   * images with an empty <code>alt</code> attribute;
    * anchors linking GIF, JPG, or PNG images as well as PDF documents;
-   * empty {{{p}}}, {{{li}}}, {{{th}}}, {{{td}}}, {{{div}}}, and {{{span}}} elements unless they’re using an {{{id}}} attribute;
-   * {{{style}}} elements;
-   * more than one {{{link}}} elements.
+   * empty <code>p</code>, <code>li</code>, <code>th</code>, <code>td</code>, <code>div</code>, and <code>span</code> elements unless they’re using an <code>id</code> attribute;
+   * <code>style</code> elements;
+   * more than one <code>link</code> elements.
 
 ----
 
 The QA style sheet is currently unmaintained (as of August 19, 2013).
+
+(<a href="https://code.google.com/p/qa-style-sheet/">Just moved from Google Project Hosting.</a>)
