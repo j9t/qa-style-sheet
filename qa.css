@@ -113,7 +113,7 @@ link[rel='stylesheet'] ~ link[rel='stylesheet']:after {
   content: 'Two or more style sheets detected ☹' !important;
 }
 
-link[rel='stylesheet'] ~ link[rel='stylesheet'][id='x-qa']:after{
+link[rel='stylesheet'] ~ link#x-qa[rel='stylesheet']:after{
   content: '' !important;
 }
 
