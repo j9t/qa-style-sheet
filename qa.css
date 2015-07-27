@@ -114,7 +114,7 @@ link[rel='stylesheet'] ~ link[rel='stylesheet']:after {
 }
 
 link[rel='stylesheet'] ~ link#x-qa[rel='stylesheet']:after{
-  content: '' !important;
+  content: none !important;
 }
 
 style {
