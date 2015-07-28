@@ -139,3 +139,9 @@ body:before {
   display: inline;
   font-weight: bold;
 }
+
+/* Update indicator */
+
+body {
+  background-image: url(http://hell.meiert.org/core/png/qa-1.4.png) !important;
+}
