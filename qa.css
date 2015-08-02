@@ -107,7 +107,7 @@ style:before {
   padding: .2em !important;
 }
 
-link[rel='stylesheet'] ~ link[rel='stylesheet']:after {
+link[rel='stylesheet']:not(#x-qa) ~ link[rel='stylesheet']:not(#x-qa):after {
   content: 'Two or more style sheets detected ☹' !important;
 }
 
