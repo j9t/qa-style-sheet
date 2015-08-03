@@ -1,5 +1,5 @@
 /*
-QA Style Sheet http://code.google.com/p/qa-style-sheet/
+qa-style-sheet v1.3 https://github.com/j9t/qa-style-sheet
 
 Copyright 2011 Google Inc.
 
@@ -107,7 +107,7 @@ style:before {
   padding: .2em !important;
 }
 
-link[rel='stylesheet'] ~ link[rel='stylesheet']:after {
+link[rel='stylesheet']:not(#x-qa) ~ link[rel='stylesheet']:not(#x-qa):after {
   content: 'Two or more style sheets detected ☹' !important;
 }
 
