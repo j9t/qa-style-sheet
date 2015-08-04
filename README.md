@@ -9,7 +9,7 @@ The QA style sheet highlights specific HTML problems like use of deprecated elem
 ## 3 Ways to Use the QA Style Sheet
 
 * Use it on demand as a [**bookmarklet**][3]: Add the bookmarklet or favelet, respectively, to your bookmarks and access it when needed. When customizing the style sheet better [compress it][4], [generate a new bookmarklet][5], but make sure to add `%20newSS.id%20=%20'x-qa';` to the bookmarklet code to avoid false positives when it comes to style sheet references on a page (this assumes you’re keeping the `#x-qa` selector in the QA style sheet too).
-* Use it permanently as a user style sheet with your browser (`userContent.css` for Gecko browsers). For more information please see [documentation at CSS-Discuss][6] or [at About.com][7]. It’s easy though.
+* Use it permanently as a user style sheet with your browser (userContent.css for Gecko browsers). For more information please see [documentation at CSS-Discuss][6] or [at About.com][7]. It’s easy though.
 * Temporarily import the style sheet in your project’s default style sheet. Do not forget to remove the style sheet reference after testing.
 
 ## User Agent Support
