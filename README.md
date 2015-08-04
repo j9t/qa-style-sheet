@@ -35,7 +35,7 @@ While Eric Meyer once published a [comparable style sheet][8], this QA style she
 
 ---
 
-The QA style sheet is currently unmaintained (as of August 19, 2013).
+The QA style sheet is currently rather unmaintained (as of August 4, 2015).
 
 [1]: https://plus.google.com/+JensOMeiert/posts/KGcMaJCP5wY
 [2]: http://meiert.com/en/contact/
