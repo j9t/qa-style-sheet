@@ -131,7 +131,7 @@ body:before {
   color: #000;
   content: 'QA check done \2713';
   display: inline;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 /* Update indicator */
