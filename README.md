@@ -35,7 +35,7 @@ While Eric Meyer once published a [comparable style sheet][8], this QA style she
 
 ---
 
-The QA style sheet is currently rather unmaintained (as of August 4, 2015).
+The style sheet is currently unmaintained (as of November 8, 2016). [Contributions welcome.][9]
 
 [1]: https://plus.google.com/+JensOMeiert/posts/KGcMaJCP5wY
 [2]: http://meiert.com/en/contact/
@@ -45,3 +45,4 @@ The QA style sheet is currently rather unmaintained (as of August 4, 2015).
 [6]: http://css-discuss.incutio.com/?page=UserStylesheets
 [7]: http://webdesign.about.com/od/css/ht/htcssuserfirefo.htm
 [8]: http://meyerweb.com/eric/thoughts/2007/09/07/diagnostic-styling/
+[9]: https://github.com/j9t/qa-style-sheet/issues/new
