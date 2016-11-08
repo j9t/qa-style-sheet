@@ -1,4 +1,4 @@
-# qa-style-sheet
+# QA Style Sheet
 
 The QA style sheet [looks for a new owner][1]. [Contact Jens][2].
 
