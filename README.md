@@ -39,7 +39,7 @@ The style sheet is currently unmaintained (as of November 8, 2016). [Contributio
 
 [1]: https://plus.google.com/+JensOMeiert/posts/KGcMaJCP5wY
 [2]: http://meiert.com/en/contact/
-[3]: http://hell.meiert.org/core/html/qa-bookmarklet.html
+[3]: https://hell.meiert.org/core/html/qa-bookmarklet.html
 [4]: http://uitest.com/en/misc/#optimization
 [5]: http://www.squarefree.com/userstyles/make-bookmarklet.html
 [6]: http://css-discuss.incutio.com/?page=UserStylesheets
