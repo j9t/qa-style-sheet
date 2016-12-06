@@ -38,7 +38,7 @@ While Eric Meyer once published a [comparable style sheet][8], this QA style she
 The style sheet is currently unmaintained (as of November 8, 2016). [Contributions welcome.][9]
 
 [1]: https://plus.google.com/+JensOMeiert/posts/KGcMaJCP5wY
-[2]: http://meiert.com/en/contact/
+[2]: https://meiert.com/en/contact/
 [3]: https://hell.meiert.org/core/html/qa-bookmarklet.html
 [4]: https://uitest.com/en/misc/#optimization
 [5]: http://www.squarefree.com/userstyles/make-bookmarklet.html
