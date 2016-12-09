@@ -14,7 +14,7 @@ The QA style sheet highlights specific HTML problems like use of deprecated elem
 
 ## User Agent Support
 
-The style sheet is supported differently across browsers as it makes some use of CSS 3 selectors, and when it comes to warnings for images, at least Internet Explorer might display errors that must not necessarily be there. To get the most of the QA style sheet test respective pages with recent releases of Firefox, Safari, Chrome, or Opera.
+The style sheet is supported differently across browsers as it makes some use of CSS&nbsp;3 selectors, and when it comes to warnings for images, at least Internet Explorer might display errors that must not necessarily be there. To get the most of the QA style sheet test respective pages with recent releases of Firefox, Safari, Chrome, or Opera.
 
 ## Background and Design Considerations
 
