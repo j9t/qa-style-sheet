@@ -18,17 +18,29 @@ limitations under the License.
 
 /* Deprecated elements */
 
+acronym,
 applet,
 basefont,
+bgsound,
+big,
+blink,
 center,
 dir,
 font,
+hgroup,
 isindex,
+listing,
+marquee,
 menu,
+nextid,
+noembed,
+plaintext,
 s,
 spacer,
 strike,
-u {
+tt,
+u,
+xmp {
   outline: 2px solid #900 !important;
 }
 
