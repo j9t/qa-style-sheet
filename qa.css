@@ -141,7 +141,7 @@ style:before {
 body:before {
   background: #fff8e7;
   color: #000;
-  content: 'QA check done \2713';
+  content: 'QA check done ✓';
   display: inline;
   font-weight: 700;
 }
