@@ -44,5 +44,5 @@ The style sheet is somewhat unmaintained (as of February 4, 2017). [Contribution
 [5]: http://www.squarefree.com/userstyles/make-bookmarklet.html
 [6]: http://css-discuss.incutio.com/?page=UserStylesheets
 [7]: http://webdesign.about.com/od/css/ht/htcssuserfirefo.htm
-[8]: http://meyerweb.com/eric/thoughts/2007/09/07/diagnostic-styling/
+[8]: https://meyerweb.com/eric/thoughts/2007/09/07/diagnostic-styling/
 [9]: https://github.com/j9t/qa-style-sheet/issues/new
