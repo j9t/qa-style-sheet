@@ -35,4 +35,4 @@ While Eric Meyer once published a [comparable style sheet](https://meyerweb.com/
 
 ---
 
-The style sheet is somewhat unmaintained (as of February 4, 2017). [Contributions welcome.](https://github.com/j9t/qa-style-sheet/issues/new)
+The style sheet is somewhat unmaintained (as of January 17, 2018). [Contributions welcome.](https://github.com/j9t/qa-style-sheet/issues/new)
