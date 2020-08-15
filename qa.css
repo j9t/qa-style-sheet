@@ -113,13 +113,13 @@ link {
   display: inline !important;
 }
 
-link[rel='stylesheet'] ~ link[rel='stylesheet']:after,
-style:before {
+link[rel='stylesheet'] ~ link[rel='stylesheet']::after,
+style::before {
   background: #fe8 !important;
   padding: .2em !important;
 }
 
-link[rel='stylesheet']:not(#x-qa) ~ link[rel='stylesheet']:not(#x-qa):after {
+link[rel='stylesheet']:not(#x-qa) ~ link[rel='stylesheet']:not(#x-qa)::after {
   content: 'Two or more style sheets detected ☹' !important;
 }
 
@@ -131,14 +131,14 @@ style {
   width: 200px !important;
 }
 
-style:before {
+style::before {
   content: 'Style element detected ☹' !important;
   font: normal 1em/1.5 verdana, sans-serif !important;
 }
 
 /* Status indicator */
 
-body:before {
+body::before {
   background: #fff8e7;
   color: #000;
   content: 'QA check done ✓';
