@@ -1,5 +1,5 @@
 /*
-qa-style-sheet v1.3 https://github.com/j9t/qa-style-sheet
+qa-style-sheet v1.5.1 (6) https://github.com/j9t/qa-style-sheet
 
 Copyright 2011 Google Inc.
 
@@ -120,7 +120,7 @@ style::before {
 }
 
 link[rel='stylesheet']:not(#x-qa) ~ link[rel='stylesheet']:not(#x-qa)::after {
-  content: 'Two or more style sheets detected ☹' !important;
+  content: 'Two or more style sheets detected ⚠' !important;
 }
 
 style {
@@ -132,7 +132,7 @@ style {
 }
 
 style::before {
-  content: 'Style element detected ☹' !important;
+  content: 'Style element detected ⚠' !important;
   font: normal 1em/1.5 verdana, sans-serif !important;
 }
 
@@ -141,7 +141,7 @@ style::before {
 body::before {
   background: #fff8e7;
   color: #000;
-  content: 'QA check done ✓';
+  content: 'QA check done ✓';
   display: inline;
   font-weight: 700;
 }
@@ -149,5 +149,5 @@ body::before {
 /* Update indicator */
 
 body {
-  background-image: url(https://hell.meiert.org/core/png/qa-1.5.png) !important;
+  background-image: url(https://hell.meiert.org/core/png/qa-6.png) !important;
 }
