@@ -8,9 +8,9 @@ The QA style sheet highlights specific HTML problems like use of deprecated elem
 
 ## 3 Ways to Use the QA Style Sheet
 
-1. Use it on demand as a [**bookmarklet**](https://hell.meiert.org/core/html/qa-bookmarklet.html): Add the bookmarklet or favelet, respectively, to your bookmarks and access it when needed. When customizing the style sheet better [compress it](https://frontenddogma.com/tools/#exploration-code-optimization), [generate a new bookmarklet](https://www.squarefree.com/userstyles/make-bookmarklet.html), but make sure to add `%20newSS.id%20=%20'x-qa';` to the bookmarklet code to avoid false positives when it comes to style sheet references on a page (this assumes you’re keeping the `#x-qa` selector in the QA style sheet, too).
+1. Use it on demand as a [**bookmarklet**](https://j9t.github.io/qa-style-sheet/bookmarklet.html): Add the bookmarklet or favelet, respectively, to your bookmarks and access it when needed. When customizing the style sheet better [compress it](https://frontenddogma.com/tools/#exploration-code-optimization), [generate a new bookmarklet](https://www.squarefree.com/userstyles/make-bookmarklet.html), but make sure to add `%20newSS.id%20=%20'x-qa';` to the bookmarklet code to avoid false positives when it comes to style sheet references on a page (this assumes you’re keeping the `#x-qa` selector in the QA style sheet, too).
 
-2. Temporarily import the style sheet in your project’s default style sheet. Do not forget to remove the style sheet reference after testing.
+2. Temporarily import the style sheet in your project’s default style sheet. Do not forget to remove the style sheet reference after [testing](https://j9t.github.io/qa-style-sheet/test.html).
 
 3. Use it permanently as a user style sheet with your browser (userContent.css for Gecko browsers). For more information please see [documentation at CSS-Discuss](https://web.archive.org/web/20180105053457/http://css-discuss.incutio.com/?page=UserStylesheets) or [at About.com](https://web.archive.org/web/20161120013248/http://webdesign.about.com/od/css/ht/htcssuserfirefo.htm). It’s easy though.
 
@@ -23,7 +23,7 @@ The style sheet is supported differently across browsers as it makes some use of
 While Eric Meyer once published a [comparable style sheet](https://meyerweb.com/eric/thoughts/2007/09/07/diagnostic-styling/), this QA style sheet has a slightly different scope. It spots the following problems, indicated in yellow (warning) and red (error) assuming a modern browser:
 
 * Errors:
-  * deprecated elements like `applet`, `basefont`, `center`, `dir`, `font`, `isindex`, `menu`, `s`, `spacer`, `strike`, and `u`;
+  * deprecated elements like `applet`, `basefont`, `center`, `dir`, `font`, `isindex`, `menu`, `spacer`, or `strike`;
   * layout tables (nested tables, to be precise);
   * images (`img` elements) without any `alt` attribute;
   * anchors with an empty `href` attribute thus pointing to nothing;
@@ -37,4 +37,4 @@ While Eric Meyer once published a [comparable style sheet](https://meyerweb.com/
 
 ---
 
-The style sheet is somewhat unmaintained (as of January 17, 2018). [Contributions welcome.](https://github.com/j9t/qa-style-sheet/issues/new)
+The style sheet is somewhat unmaintained (as of November 29, 2024). [Contributions welcome.](https://github.com/j9t/qa-style-sheet/issues/new)
