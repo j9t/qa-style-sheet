@@ -1,5 +1,5 @@
 /*
-qa-style-sheet v1.5 https://github.com/j9t/qa-style-sheet
+qa-style-sheet v1.6 https://github.com/j9t/qa-style-sheet
 
 Copyright 2011 Google Inc.
 
@@ -48,19 +48,19 @@ spacer,
 strike,
 tt,
 xmp {
-  outline: 2px solid #900 !important;
+  outline: 2px solid #f00 !important;
 }
 
 /* Layout tables */
 
 table table {
-  outline: 2px solid #900 !important;
+  outline: 2px solid #f00 !important;
 }
 
 /* Decorative or inaccessible images */
 
 img {
-  outline: 2px solid #900 !important;
+  outline: 2px solid #f00 !important;
 }
 
 img[alt] {
@@ -68,13 +68,13 @@ img[alt] {
 }
 
 img[alt=''] {
-  outline: 2px solid #fe8 !important;
+  outline: 2px solid #ff0 !important;
 }
 
 /* Empty or non-HTML links */
 
 a[href=''] {
-  outline: 2px solid #900 !important;
+  outline: 2px solid #f00 !important;
 }
 
 a[href$='.gif'],
@@ -82,7 +82,7 @@ a[href$='.jpg'],
 a[href$='.jpeg'],
 a[href$='.pdf'],
 a[href$='.png'] {
-  outline: 2px solid #fe8 !important;
+  outline: 2px solid #ff0 !important;
 }
 
 /* Empty elements not used for scripting */
@@ -93,7 +93,7 @@ li:empty,
 th:empty,
 td:empty,
 span:empty {
-  outline: 2px solid #fe8 !important;
+  outline: 2px solid #f00 !important;
 }
 
 p[id],
@@ -108,7 +108,7 @@ span[id] {
 /* Maintenance traps */
 
 [style] {
-  outline: 2px solid #900 !important;
+  outline: 2px solid #f00 !important;
 }
 
 head {
@@ -122,12 +122,12 @@ link {
 
 link[rel='stylesheet'] ~ link[rel='stylesheet']::after,
 style::before {
-  background: #fe8 !important;
+  background: #ff0 !important;
   padding: .2em !important;
 }
 
 link[rel='stylesheet']:not(#x-qa) ~ link[rel='stylesheet']:not(#x-qa)::after {
-  content: 'Two or more style sheets detected ☹' !important;
+  content: 'Two or more style sheets detected ⚠' !important;
 }
 
 style {
@@ -139,22 +139,22 @@ style {
 }
 
 style::before {
-  content: 'Style element detected ☹' !important;
+  content: 'Style element detected ⚠' !important;
   font: normal 1em/1.5 verdana, sans-serif !important;
 }
 
 /* Status indicator */
 
 body::before {
-  background: #fff8e7;
+  background: #0f0;
   color: #000;
-  content: 'QA check done ✓';
+  content: 'QA check done ✓';
   display: inline;
   font-weight: 700;
 }
 
-/* Update indicator */
+/* Update indicator (should always point one version ahead) */
 
 body {
-  background-image: url(https://hell.meiert.org/core/png/qa-1.6.png) !important;
+  background-image: url(https://j9t.github.io/qa-style-sheet/media/updates/1.7.png) !important;
 }
