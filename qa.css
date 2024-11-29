@@ -48,33 +48,33 @@ spacer,
 strike,
 tt,
 xmp {
-  outline: 2px solid #f00 !important;
+	outline: 2px solid #f00 !important;
 }
 
 /* Layout tables */
 
 table table {
-  outline: 2px solid #f00 !important;
+	outline: 2px solid #f00 !important;
 }
 
 /* Decorative or inaccessible images */
 
 img {
-  outline: 2px solid #f00 !important;
+	outline: 2px solid #f00 !important;
 }
 
 img[alt] {
-  outline: 0 !important;
+	outline: 0 !important;
 }
 
 img[alt=''] {
-  outline: 2px solid #ff0 !important;
+	outline: 2px solid #ff0 !important;
 }
 
 /* Empty or non-HTML links */
 
 a[href=''] {
-  outline: 2px solid #f00 !important;
+	outline: 2px solid #f00 !important;
 }
 
 a[href$='.gif'],
@@ -82,7 +82,7 @@ a[href$='.jpg'],
 a[href$='.jpeg'],
 a[href$='.pdf'],
 a[href$='.png'] {
-  outline: 2px solid #ff0 !important;
+	outline: 2px solid #ff0 !important;
 }
 
 /* Empty elements not used for scripting */
@@ -93,7 +93,7 @@ li:empty,
 th:empty,
 td:empty,
 span:empty {
-  outline: 2px solid #f00 !important;
+	outline: 2px solid #f00 !important;
 }
 
 p[id],
@@ -102,59 +102,59 @@ li[id],
 th[id],
 td[id],
 span[id] {
-  outline: 0 !important;
+	outline: 0 !important;
 }
 
 /* Maintenance traps */
 
 [style] {
-  outline: 2px solid #f00 !important;
+	outline: 2px solid #f00 !important;
 }
 
 head {
-  display: block !important;
-  font: normal 75%/1.5 verdana, sans-serif !important;
+	display: block !important;
+	font: normal 75%/1.5 verdana, sans-serif !important;
 }
 
 link {
-  display: inline !important;
+	display: inline !important;
 }
 
 link[rel='stylesheet'] ~ link[rel='stylesheet']::after,
 style::before {
-  background: #ff0 !important;
-  padding: .2em !important;
+	background: #ff0 !important;
+	padding: .2em !important;
 }
 
 link[rel='stylesheet']:not(#x-qa) ~ link[rel='stylesheet']:not(#x-qa)::after {
-  content: 'Two or more style sheets detected ⚠' !important;
+	content: 'Two or more style sheets detected ⚠' !important;
 }
 
 style {
-  display: block !important;
-  font-family: courier, monospace !important;
-  height: 3em !important;
-  overflow: hidden !important;
-  width: 200px !important;
+	display: block !important;
+	font-family: courier, monospace !important;
+	height: 3em !important;
+	overflow: hidden !important;
+	width: 200px !important;
 }
 
 style::before {
-  content: 'Style element detected ⚠' !important;
-  font: normal 1em/1.5 verdana, sans-serif !important;
+	content: 'Style element detected ⚠' !important;
+	font: normal 1em/1.5 verdana, sans-serif !important;
 }
 
 /* Status indicator */
 
 body::before {
-  background: #0f0;
-  color: #000;
-  content: 'QA check done ✓';
-  display: inline;
-  font-weight: 700;
+	background: #0f0;
+	color: #000;
+	content: 'QA check done ✓';
+	display: inline;
+	font-weight: 700;
 }
 
 /* Update indicator (should always point one version ahead) */
 
 body {
-  background-image: url(https://j9t.github.io/qa-style-sheet/media/updates/1.7.png) !important;
+	background-image: url(https://j9t.github.io/qa-style-sheet/media/updates/1.7.png) !important;
 }
