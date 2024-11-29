@@ -27,6 +27,8 @@ blink,
 center,
 dir,
 font,
+frame,
+frameset,
 hgroup,
 isindex,
 keygen,
@@ -37,15 +39,14 @@ multicol,
 nextid,
 nobr,
 noembed,
+noframes,
 param,
 plaintext,
 rb,
 rtc,
-s,
 spacer,
 strike,
 tt,
-u,
 xmp {
   outline: 2px solid #900 !important;
 }
@@ -155,5 +156,5 @@ body::before {
 /* Update indicator */
 
 body {
-  background-image: url(https://hell.meiert.org/core/png/qa-1.5.png) !important;
+  background-image: url(https://hell.meiert.org/core/png/qa-1.6.png) !important;
 }
