@@ -1,6 +1,6 @@
 # QA Style Sheet
 
-The QA style sheet [looks for a new owner](https://plus.google.com/+JensOMeiert/posts/KGcMaJCP5wY). [Contact Jens.](https://meiert.com/en/contact/)
+The QA style sheet [looks for a new owner](https://plus.google.com/+JensOMeiert/posts/KGcMaJCP5wY). [Please contact Jens.](https://meiert.com/en/contact/)
 
 ---
 
@@ -37,4 +37,4 @@ While Eric Meyer once published a [comparable style sheet](https://meyerweb.com/
 
 ---
 
-The style sheet is somewhat unmaintained (as of November 29, 2024). [Contributions welcome.](https://github.com/j9t/qa-style-sheet/issues/new)
+The style sheet is unmaintained (as of November 29, 2024). [Contributions welcome.](https://github.com/j9t/qa-style-sheet/issues/new)
