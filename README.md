@@ -1,6 +1,6 @@
 # QA Style Sheet
 
-The QA style sheet [looks for a new owner](https://plus.google.com/+JensOMeiert/posts/KGcMaJCP5wY). [Please contact Jens.](https://meiert.com/en/contact/)
+The QA style sheet [looks for a new owner](https://plus.google.com/+JensOMeiert/posts/KGcMaJCP5wY). [Please contact Jens.](https://meiert.com/contact/)
 
 ---
 
