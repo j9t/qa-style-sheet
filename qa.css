@@ -153,7 +153,7 @@ body::before {
 	font-weight: 700;
 }
 
-/* Update indicator (should always point one version ahead); @@ refactor (https://github.com/j9t/qa-style-sheet/issues/7) */
+/* Update indicator (should always point one version ahead) */
 
 body {
 	background-image: url(https://j9t.github.io/qa-style-sheet/media/updates/1.7.png) !important;
