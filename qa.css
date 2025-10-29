@@ -85,6 +85,16 @@ a[href$='.png'] {
 	outline: 2px solid #ff0 !important;
 }
 
+/* Elements that must not be nested */
+
+a[href] a[href],
+a[href] button,
+button a[href],
+button button,
+select button:not(:first-child) {
+	outline: 2px solid #f00 !important;
+}
+
 /* Empty elements not used for scripting */
 
 p:empty,
