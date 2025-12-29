@@ -23,17 +23,17 @@ The style sheet is supported differently across browsers as it makes some use of
 While Eric Meyer once published a [comparable style sheet](https://meyerweb.com/eric/thoughts/2007/09/07/diagnostic-styling/), this QA style sheet has a slightly different scope. It spots the following problems, indicated in yellow (warning) and red (error) assuming a modern browser:
 
 * Errors:
-  * deprecated elements like `applet`, `basefont`, `center`, `dir`, `font`, `isindex`, `menu`, `spacer`, or `strike`;
-  * layout tables (nested tables, to be precise);
-  * images (`img` elements) without any `alt` attribute;
-  * anchors with an empty `href` attribute thus pointing to nothing;
-  * `style` attributes.
+  - deprecated elements like `applet`, `basefont`, `center`, `dir`, `font`, `isindex`, `menu`, `spacer`, or `strike`;
+  - layout tables (nested tables, to be precise);
+  - images (`img` elements) without any `alt` attribute;
+  - anchors with an empty `href` attribute thus pointing to nothing;
+  - `style` attributes.
 * Warnings:
-  * images with an empty `alt` attribute;
-  * anchors linking GIF, JPG, or PNG images as well as PDF documents;
-  * empty `p`, `li`, `th`, `td`, `div`, and `span` elements unless they’re using an `id` attribute;
-  * `style` elements;
-  * more than one `link` elements with `rel=stylesheet` attribute.
+  - images with an empty `alt` attribute;
+  - anchors linking GIF, JPG, or PNG images as well as PDF documents;
+  - empty `p`, `li`, `th`, `td`, `div`, and `span` elements unless they’re using an `id` attribute;
+  - `style` elements;
+  - more than one `link` elements with `rel=stylesheet` attribute.
 
 ---
 
