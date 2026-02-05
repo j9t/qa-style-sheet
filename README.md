@@ -20,7 +20,7 @@ The style sheet is supported differently across browsers as it makes some use of
 
 ## Background and Design Considerations
 
-While Eric Meyer once published a [comparable style sheet](https://meyerweb.com/eric/thoughts/2007/09/07/diagnostic-styling/), this QA style sheet has a slightly different scope. It spots the following problems, indicated in yellow (warning) and red (error) assuming a modern browser:
+While Eric A. Meyer once published a [comparable style sheet](https://meyerweb.com/eric/thoughts/2007/09/07/diagnostic-styling/), this QA style sheet has a slightly different scope. It spots the following problems, indicated in yellow (warning) and red (error) assuming a modern browser:
 
 * Errors:
   - deprecated elements like `applet`, `basefont`, `center`, `dir`, `font`, `isindex`, `menu`, `spacer`, or `strike`;
