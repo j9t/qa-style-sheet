@@ -37,4 +37,4 @@ While Eric A. Meyer once published a [comparable style sheet](https://meyerweb.c
 
 ---
 
-The style sheet is unmaintained (as of November 29, 2024). [Contributions welcome.](https://github.com/j9t/qa-style-sheet/issues/new)
+The style sheet is unmaintained (as of November 29, 2024). [Contributions welcome.](https://github.com/j9t/qa-style-sheet/issues)
